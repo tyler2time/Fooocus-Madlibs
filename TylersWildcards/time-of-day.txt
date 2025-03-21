@@ -1,0 +1,10 @@
+sunrise
+golden hour
+blue hour
+twilight
+midday
+overcast
+foggy morning
+starry night
+full moon
+eclipse

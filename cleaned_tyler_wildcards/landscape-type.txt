@@ -1,0 +1,10 @@
+alpine lake
+desert canyon
+rainforest
+frozen tundra
+mountain ridge
+coastal cliffs
+savannah
+volcanic plain
+meadow
+redwood forest

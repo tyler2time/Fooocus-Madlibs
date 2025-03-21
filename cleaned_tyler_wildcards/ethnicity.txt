@@ -1,0 +1,8 @@
+Caucasian
+Asian
+African
+Middle Eastern
+Latina
+Mixed-race
+Indigenous
+Pacific Islander

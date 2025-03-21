@@ -1,0 +1,747 @@
+{
+  "actor": [
+    "person"
+  ],
+  "actress": [
+    "person"
+  ],
+  "adj-architecture": [
+    "adjective"
+  ],
+  "adj-beauty": [
+    "adjective"
+  ],
+  "adj-general": [
+    "adjective"
+  ],
+  "adj-horror": [
+    "adjective"
+  ],
+  "alien": [
+    "creature"
+  ],
+  "angle": [
+    "camera"
+  ],
+  "animal": [
+    "noun",
+    "creature"
+  ],
+  "animal-type": [
+    "noun",
+    "creature"
+  ],
+  "artist": [
+    "style"
+  ],
+  "artist-anime": [
+    "style"
+  ],
+  "artist-black-white": [
+    "style"
+  ],
+  "artist-botanical": [
+    "style"
+  ],
+  "artist-c": [
+    "style"
+  ],
+  "artist-cartoon": [
+    "style"
+  ],
+  "artist-concept": [
+    "style"
+  ],
+  "artist-csv": [
+    "style"
+  ],
+  "artist-dig1": [
+    "style"
+  ],
+  "artist-dig2": [
+    "style"
+  ],
+  "artist-dig3": [
+    "style"
+  ],
+  "artist-director": [
+    "style"
+  ],
+  "artist-fantasy": [
+    "noun",
+    "style"
+  ],
+  "artist-fareast": [
+    "style"
+  ],
+  "artist-fineart": [
+    "style"
+  ],
+  "artist-horror": [
+    "style"
+  ],
+  "artist-n": [
+    "style"
+  ],
+  "artist-nudity": [
+    "style"
+  ],
+  "artist-photographer": [
+    "style"
+  ],
+  "artist-scifi": [
+    "style"
+  ],
+  "artist-scribbles": [
+    "style"
+  ],
+  "artist-special": [
+    "style"
+  ],
+  "artist-surreal": [
+    "style"
+  ],
+  "artist-ukioe": [
+    "style"
+  ],
+  "artist-weird": [
+    "style"
+  ],
+  "aspect-ratio": [
+    "camera"
+  ],
+  "background": [
+    "location"
+  ],
+  "background-color": [
+    "location"
+  ],
+  "background-detail": [
+    "adjective",
+    "location"
+  ],
+  "background-detail.txt": [
+    "adjective",
+    "location"
+  ],
+  "bangs": [
+    "body"
+  ],
+  "belt": [
+    "clothing"
+  ],
+  "big-butt": [
+    "body"
+  ],
+  "biome": [
+    "location"
+  ],
+  "bird": [
+    "creature"
+  ],
+  "body-fit": [
+    "body"
+  ],
+  "body-framing": [
+    "body"
+  ],
+  "body-heavy": [
+    "body"
+  ],
+  "body-light": [
+    "body"
+  ],
+  "body-poor": [
+    "body"
+  ],
+  "body-shape": [
+    "body"
+  ],
+  "body-shape2": [
+    "body"
+  ],
+  "body-short": [
+    "body"
+  ],
+  "body-tall": [
+    "body"
+  ],
+  "body-type": [
+    "body"
+  ],
+  "camera": [
+    "object",
+    "camera"
+  ],
+  "camera-manu": [
+    "object",
+    "camera"
+  ],
+  "camera-perspective": [
+    "object",
+    "camera"
+  ],
+  "camera-style": [
+    "object",
+    "camera",
+    "style"
+  ],
+  "cat": [
+    "creature"
+  ],
+  "celeb": [
+    "person"
+  ],
+  "char-bdsm-dom": [
+    "person",
+    "occupation"
+  ],
+  "char-bdsm-sub": [
+    "person",
+    "occupation"
+  ],
+  "char-bunnygirl": [
+    "person",
+    "occupation"
+  ],
+  "char-busty": [
+    "person",
+    "occupation"
+  ],
+  "char-cheerleader": [
+    "person",
+    "occupation"
+  ],
+  "char-dancer": [
+    "person",
+    "occupation"
+  ],
+  "char-dominatrix": [
+    "person",
+    "occupation"
+  ],
+  "char-femme-fatale": [
+    "person",
+    "occupation"
+  ],
+  "char-goth": [
+    "person",
+    "occupation"
+  ],
+  "char-mage": [
+    "person",
+    "occupation"
+  ],
+  "char-maid": [
+    "person",
+    "occupation"
+  ],
+  "char-muscular": [
+    "person",
+    "occupation",
+    "body"
+  ],
+  "char-nurse": [
+    "person",
+    "occupation"
+  ],
+  "char-petite": [
+    "person",
+    "occupation"
+  ],
+  "char-pinup": [
+    "person",
+    "occupation"
+  ],
+  "char-rogue": [
+    "person",
+    "occupation"
+  ],
+  "char-schoolgirl": [
+    "person",
+    "occupation"
+  ],
+  "char-succubus": [
+    "person",
+    "occupation"
+  ],
+  "char-vampire": [
+    "person",
+    "occupation"
+  ],
+  "char-waifu": [
+    "person",
+    "occupation"
+  ],
+  "char-waitress": [
+    "person",
+    "occupation"
+  ],
+  "char-warrior": [
+    "person",
+    "occupation"
+  ],
+  "choker": [
+    "clothing"
+  ],
+  "class": [
+    "occupation"
+  ],
+  "clothing": [
+    "clothing"
+  ],
+  "clothing-dominant": [
+    "clothing"
+  ],
+  "clothing-exhibitionist": [
+    "clothing"
+  ],
+  "clothing-female": [
+    "clothing"
+  ],
+  "clothing-fetish": [
+    "clothing"
+  ],
+  "clothing-male": [
+    "clothing"
+  ],
+  "clothing-nsfw": [
+    "clothing"
+  ],
+  "clothing-petplay": [
+    "clothing"
+  ],
+  "clothing-submissive": [
+    "clothing"
+  ],
+  "color_flower": [
+    "noun",
+    "object"
+  ],
+  "composition-style": [
+    "camera",
+    "style"
+  ],
+  "costume-female": [
+    "clothing"
+  ],
+  "costume-male": [
+    "clothing"
+  ],
+  "demon-traits": [
+    "creature"
+  ],
+  "demon-traits.txt": [
+    "creature"
+  ],
+  "detail": [
+    "adjective"
+  ],
+  "dog": [
+    "creature"
+  ],
+  "ethnicity": [
+    "person"
+  ],
+  "expression": [
+    "adjective",
+    "body"
+  ],
+  "eye-color": [
+    "body"
+  ],
+  "facial-feature": [
+    "body"
+  ],
+  "fantasy": [
+    "noun"
+  ],
+  "fantasy-creature": [
+    "noun",
+    "creature"
+  ],
+  "fantasy-setting": [
+    "noun",
+    "location"
+  ],
+  "film-genre": [
+    "style"
+  ],
+  "film-style": [
+    "style"
+  ],
+  "fish": [
+    "creature"
+  ],
+  "flower": [
+    "noun",
+    "object"
+  ],
+  "flower-type": [
+    "noun",
+    "object"
+  ],
+  "food": [
+    "object"
+  ],
+  "forest-type": [
+    "location"
+  ],
+  "fruit": [
+    "object"
+  ],
+  "f-stop": [
+    "camera"
+  ],
+  "furniture": [
+    "object"
+  ],
+  "gem": [
+    "object"
+  ],
+  "gender": [
+    "person"
+  ],
+  "gender-ext": [
+    "person"
+  ],
+  "gloves": [
+    "clothing"
+  ],
+  "gloves.txt": [
+    "clothing"
+  ],
+  "hair-accessory": [
+    "clothing",
+    "body"
+  ],
+  "hair-color": [
+    "body"
+  ],
+  "hair-female": [
+    "body"
+  ],
+  "hair-female-short": [
+    "body"
+  ],
+  "hair-length": [
+    "body"
+  ],
+  "hair-male": [
+    "body"
+  ],
+  "hairstyle": [
+    "style",
+    "body"
+  ],
+  "hairstyle.txt": [
+    "style",
+    "body"
+  ],
+  "headwear-female": [
+    "clothing"
+  ],
+  "headwear-male": [
+    "clothing"
+  ],
+  "identity": [
+    "person"
+  ],
+  "iso-stop": [
+    "camera"
+  ],
+  "jewelry": [
+    "object",
+    "clothing"
+  ],
+  "landscape": [
+    "location"
+  ],
+  "landscape-type": [
+    "location"
+  ],
+  "lighting": [
+    "camera"
+  ],
+  "lighting-style": [
+    "adjective",
+    "camera",
+    "style"
+  ],
+  "light-type": [
+    "adjective"
+  ],
+  "lingerie-material": [
+    "clothing"
+  ],
+  "lipstick": [
+    "body"
+  ],
+  "lipstick-shade": [
+    "body"
+  ],
+  "location": [
+    "location",
+    "creature"
+  ],
+  "macro-style": [
+    "style"
+  ],
+  "makeup": [
+    "clothing"
+  ],
+  "micro-detail": [
+    "adjective"
+  ],
+  "monster": [
+    "noun",
+    "creature"
+  ],
+  "muscular": [
+    "body"
+  ],
+  "name-female": [
+    "person"
+  ],
+  "name-male": [
+    "person"
+  ],
+  "national-park": [
+    "location"
+  ],
+  "natural-environment": [
+    "location"
+  ],
+  "natural-setting": [
+    "location"
+  ],
+  "neckwear": [
+    "clothing"
+  ],
+  "noun-beauty": [
+    "noun"
+  ],
+  "noun-fantasy": [
+    "noun"
+  ],
+  "noun-general": [
+    "noun"
+  ],
+  "noun-horror": [
+    "noun"
+  ],
+  "noun-landscape": [
+    "noun",
+    "location"
+  ],
+  "noun-romance": [
+    "noun"
+  ],
+  "noun-scifi": [
+    "noun"
+  ],
+  "nsfw-clothing-state": [
+    "clothing"
+  ],
+  "nsfw-expression": [
+    "adjective",
+    "body"
+  ],
+  "nsfw-lingerie": [
+    "clothing"
+  ],
+  "nsfw-lingerie-state": [
+    "clothing"
+  ],
+  "occupation": [
+    "person",
+    "occupation"
+  ],
+  "photo-mood": [
+    "adjective"
+  ],
+  "photo-mood.txt": [
+    "adjective"
+  ],
+  "photo-term": [
+    "object"
+  ],
+  "photo-treatment": [
+    "style"
+  ],
+  "pop-location": [
+    "location",
+    "creature"
+  ],
+  "prompt": [
+    "prompt"
+  ],
+  "prompt-bdsm": [
+    "prompt"
+  ],
+  "prompt-bdsm-intense": [
+    "prompt"
+  ],
+  "prompt-bdsm-subtle": [
+    "prompt"
+  ],
+  "prompt-cyberpunk": [
+    "prompt"
+  ],
+  "prompt-fantasy": [
+    "noun",
+    "prompt"
+  ],
+  "prompt-horror": [
+    "prompt"
+  ],
+  "prompt-horror-creature": [
+    "noun",
+    "prompt"
+  ],
+  "prompt-nsfw-beach": [
+    "prompt"
+  ],
+  "prompt-nsfw-boudoir": [
+    "prompt"
+  ],
+  "prompt-nsfw-cosplay": [
+    "prompt"
+  ],
+  "prompt-nsfw-creature": [
+    "noun",
+    "prompt"
+  ],
+  "prompt-nsfw-dungeon": [
+    "prompt"
+  ],
+  "prompt-nsfw-erotic": [
+    "prompt"
+  ],
+  "prompt-nsfw-fantasy": [
+    "noun",
+    "prompt"
+  ],
+  "prompt-nsfw-fetish": [
+    "prompt"
+  ],
+  "prompt-nsfw-pinup": [
+    "prompt"
+  ],
+  "prompt-nsfw-pool": [
+    "prompt"
+  ],
+  "prompt-nsfw-striptease": [
+    "prompt"
+  ],
+  "prompt-nsfw-tease": [
+    "prompt"
+  ],
+  "prompt-nsfw-voyeur": [
+    "prompt"
+  ],
+  "prompt-photoshoot": [
+    "prompt"
+  ],
+  "prompt-scifi": [
+    "prompt"
+  ],
+  "prompt-sci-fi": [
+    "prompt"
+  ],
+  "render": [
+    "style"
+  ],
+  "render-engine": [
+    "style"
+  ],
+  "robot": [
+    "object"
+  ],
+  "rpg-Item": [
+    "object"
+  ],
+  "scenario": [
+    "prompt"
+  ],
+  "scenario2": [
+    "prompt"
+  ],
+  "scenario-fantasy": [
+    "noun",
+    "prompt"
+  ],
+  "scenario-romance": [
+    "prompt"
+  ],
+  "scenario-scifi": [
+    "prompt"
+  ],
+  "setting": [
+    "location"
+  ],
+  "ship": [
+    "object"
+  ],
+  "skin-color": [
+    "body"
+  ],
+  "style": [
+    "style"
+  ],
+  "subject": [
+    "noun"
+  ],
+  "subject-fantasy": [
+    "noun"
+  ],
+  "subject-horror": [
+    "noun"
+  ],
+  "subject-romance": [
+    "noun"
+  ],
+  "subject-scifi": [
+    "noun"
+  ],
+  "suit-female": [
+    "clothing"
+  ],
+  "suit-male": [
+    "clothing"
+  ],
+  "swimwear": [
+    "clothing"
+  ],
+  "tattoos": [
+    "body"
+  ],
+  "tattoos.txt": [
+    "body"
+  ],
+  "technique": [
+    "style"
+  ],
+  "tiny-subject": [
+    "noun"
+  ],
+  "tree": [
+    "noun",
+    "object"
+  ],
+  "tribe": [
+    "person"
+  ],
+  "undead": [
+    "creature"
+  ],
+  "undead.txt": [
+    "creature"
+  ],
+  "undergarments": [
+    "clothing"
+  ],
+  "undergarments.txt": [
+    "clothing"
+  ]
+}
