@@ -11,9 +11,9 @@ class MadLibsWildcardApp:
         self.root.title("Mad Libs Wildcard Prompt Builder")
         self.root.geometry("800x700")
 
-        default_config = Path("wildcard_categories.json")
-        default_story_folder = Path("story_templates_v2")
-        default_wildcard_folder = Path("TylersWildcards")
+        default_config = Path("wildcard_categories_no_nested.json")
+        default_story_folder = Path("story_templates")
+        default_wildcard_folder = Path("cleaned_tyler_wildcards_no_nested")
 
         self.config_file = default_config if default_config.exists() else Path(filedialog.askopenfilename(title="Select wildcard_categories.json"))
         self.story_folder = default_story_folder if default_story_folder.exists() else Path(filedialog.askdirectory(title="Select your story template folder"))

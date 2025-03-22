@@ -8,12 +8,12 @@ from pathlib import Path
 class MadLibsWildcardApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Mad Libs Wildcard Prompt Builder")
+        self.root.title("Mad Libs Wildcard Prompt Builder (Debug)")
         self.root.geometry("800x700")
 
-        default_config = Path("wildcard_categories.json")
-        default_story_folder = Path("story_templates_v2")
-        default_wildcard_folder = Path("TylersWildcards")
+        default_config = Path("wildcard_categories_no_nested.json")
+        default_story_folder = Path("story_templates")
+        default_wildcard_folder = Path("cleaned_tyler_wildcards_no_nested")
 
         self.config_file = default_config if default_config.exists() else Path(filedialog.askopenfilename(title="Select wildcard_categories.json"))
         self.story_folder = default_story_folder if default_story_folder.exists() else Path(filedialog.askdirectory(title="Select your story template folder"))
@@ -101,23 +101,32 @@ class MadLibsWildcardApp:
 
     def get_random_value_from_file(self, wildcard_name):
         file_path = self.wildcard_folder / f"{wildcard_name}.txt"
+        print(f"🔍 Loading: {file_path}")
         if file_path.exists():
             with open(file_path, "r", encoding="utf-8") as f:
                 lines = [line.strip() for line in f if line.strip()]
+            print(f"📄 {len(lines)} entries found in {wildcard_name}.txt")
             if lines:
-                return random.choice(lines)
+                chosen = random.choice(lines)
+                print(f"🎯 Chosen value: {chosen}")
+                return chosen
+        else:
+            print(f"⚠️ File not found: {file_path}")
         return f"__{wildcard_name}__"
 
     def generate_prompt(self):
         prompt = self.story_text.get("1.0", tk.END).strip()
+        print("🛠 Generating prompt:")
         for ph, var in self.dropdown_vars.items():
             wildcard_name = var.get()
             if wildcard_name:
+                print(f"🧩 Placeholder: __{ph}__ → Wildcard: {wildcard_name}")
                 if self.randomize_values_var.get():
                     value = self.get_random_value_from_file(wildcard_name)
                     prompt = prompt.replace(f"__{ph}__", value)
                 else:
                     prompt = prompt.replace(f"__{ph}__", f"__{wildcard_name}__")
+        print("✅ Final Prompt:", prompt)
         self.output_text.delete("1.0", tk.END)
         self.output_text.insert(tk.END, prompt)
 

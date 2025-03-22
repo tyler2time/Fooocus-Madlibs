@@ -11,10 +11,12 @@ class MadLibsWildcardApp:
         self.root.title("Mad Libs Wildcard Prompt Builder")
         self.root.geometry("800x700")
 
-        default_config = Path("wildcard_categories.json")
-        default_story_folder = Path("story_templates_v2")
-        default_wildcard_folder = Path("TylersWildcards")
+        # Default paths
+        default_config = Path(".\wildcard_categories.json")
+        default_story_folder = Path(".\story_templates_v2")
+        default_wildcard_folder = Path(".\TylersWildcards")
 
+        # Prompt only if missing
         self.config_file = default_config if default_config.exists() else Path(filedialog.askopenfilename(title="Select wildcard_categories.json"))
         self.story_folder = default_story_folder if default_story_folder.exists() else Path(filedialog.askdirectory(title="Select your story template folder"))
         self.wildcard_folder = default_wildcard_folder if default_wildcard_folder.exists() else Path(filedialog.askdirectory(title="Select your wildcards folder"))
@@ -96,8 +98,6 @@ class MadLibsWildcardApp:
 
             if self.randomize_dropdown_var.get() and matching_wildcards:
                 var.set(random.choice(matching_wildcards))
-            elif len(matching_wildcards) == 1:
-                var.set(matching_wildcards[0])
 
     def get_random_value_from_file(self, wildcard_name):
         file_path = self.wildcard_folder / f"{wildcard_name}.txt"

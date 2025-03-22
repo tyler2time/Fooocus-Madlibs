@@ -1,0 +1,191 @@
+### body-type.txt
+petite
+toned
+athletic
+curvy
+voluptuous
+broad-shouldered
+soft and delicate
+muscular but feminine
+slim and elegant
+
+### facial-feature.txt
+high cheekbones
+sharp jawline
+full lips
+thin lips
+freckles
+beauty mark on cheek
+dimples
+piercing gaze
+soft, round face
+intense, arched eyebrows
+
+### ethnicity.txt
+Caucasian
+Asian
+African
+Middle Eastern
+Latina
+Mixed-race
+Indigenous
+Pacific Islander
+
+### tattoos.txt
+sleeve tattoo
+minimalist wrist tattoo
+full back tattoo
+delicate ankle tattoo
+intricate chest tattoo
+ribcage script tattoo
+small finger tattoo
+neck tattoo
+
+### piercings.txt
+nose ring
+septum piercing
+industrial piercing
+lip ring
+eyebrow piercing
+tongue piercing
+multiple ear piercings
+belly button piercing
+
+### film-style.txt
+vintage film
+HDR photography
+cinematic noir
+high-speed action shot
+soft-focus dreamlike
+polaroid aesthetic
+lens flare-heavy shot
+grainy 80s VHS
+
+### photo-mood.txt
+dramatic chiaroscuro lighting
+soft golden-hour glow
+misty and ethereal
+high contrast neon
+desaturated and moody
+dreamlike haze
+low-key candlelit
+cool-toned and distant
+
+### background-detail.txt
+blurred cityscape
+misty forest background
+cyberpunk skyline
+grand gothic cathedral
+dimly lit alleyway
+lush green meadow
+industrial warehouse interior
+mansion ballroom
+
+### gloves.txt
+long latex gloves
+fingerless leather gloves
+delicate lace gloves
+elbow-length silk gloves
+opera gloves
+studded punk gloves
+short motorcycle gloves
+
+### jewelry.txt
+diamond choker
+gold hoop earrings
+silver pendant necklace
+stacked bracelets
+nose chain jewelry
+minimalist pearl earrings
+large statement ring
+
+### gloves.txt
+long latex gloves
+fingerless leather gloves
+delicate lace gloves
+elbow-length silk gloves
+opera gloves
+studded punk gloves
+short motorcycle gloves
+
+### undergarments.txt
+black lace lingerie
+red silk bra and panties
+corset with garter belt
+minimalist thong
+high-waisted retro underwear
+sheer bodysuit
+fishnet stockings and panties
+
+### hairstyle.txt
+long wavy hair
+messy bun
+sleek straight bob
+twin tails
+voluminous curls
+shaved undercut
+braided crown
+pixie cut
+
+### cybernetic-augmentations.txt
+bionic arm
+cybernetic eyes
+neural implant
+robotic exoskeleton
+mechanical leg
+holographic interface
+subdermal glowing circuits
+
+### demon-traits.txt
+curved horns
+glowing red eyes
+bat-like wings
+sharp fangs
+long pointed tail
+blackened clawed fingers
+obsidian-like skin texture
+
+### undead.txt
+pale vampiric skin
+glowing ghostly eyes
+rotting zombie flesh
+skeletal face
+ethereal floating apparition
+gory, bloodstained mouth
+stitched-up Frankenstein aesthetic
+
+### dominance-dynamics.txt
+strict and commanding dom
+playful but firm dom
+bratty sub
+desperate and eager sub
+obedient and worshipful sub
+struggling but slowly giving in
+fearful yet excited sub
+
+### dominance-dynamics.txt
+strict and commanding dom
+playful but firm dom
+bratty sub
+desperate and eager sub
+obedient and worshipful sub
+struggling but slowly giving in
+fearful yet excited sub
+
+### nsfw-pose.txt
+arching back
+hands tied above head
+pressed against a wall
+straddling confidently
+spreading legs while seated
+submissive laying flat on back
+dom towering over sub
+
+### lingerie-material.txt
+black lace
+sheer silk
+shiny latex
+red satin
+white fishnet
+leather straps
+intricate embroidery

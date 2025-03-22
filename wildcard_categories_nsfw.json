@@ -1,0 +1,161 @@
+{
+  "char-bdsm-dom": [
+    "char",
+    "nsfw",
+    "person",
+    "char-bdsm-dom"
+  ],
+  "char-bdsm-sub": [
+    "char",
+    "nsfw",
+    "person",
+    "char-bdsm-sub"
+  ],
+  "char-dominant": [
+    "char",
+    "nsfw",
+    "person",
+    "char-dominant"
+  ],
+  "char-submissive": [
+    "char",
+    "nsfw",
+    "person",
+    "char-submissive"
+  ],
+  "clothing-nsfw": [
+    "clothing",
+    "nsfw",
+    "clothing-nsfw"
+  ],
+  "monster": [
+    "creature",
+    "monster"
+  ],
+  "clothing-dominant": [
+    "clothing",
+    "nsfw",
+    "clothing-nsfw",
+    "clothing-dominant"
+  ],
+  "expression": [
+    "adjective",
+    "nsfw",
+    "expression"
+  ],
+  "fluid": [
+    "object",
+    "nsfw",
+    "fluid"
+  ],
+  "light-type": [
+    "adjective",
+    "light-type"
+  ],
+  "location-dungeon": [
+    "location",
+    "nsfw",
+    "location-dungeon"
+  ],
+  "location-outdoor-public": [
+    "location",
+    "nsfw",
+    "location-outdoor-public"
+  ],
+  "movement": [
+    "pose",
+    "movement"
+  ],
+  "nsfw-breastsize": [
+    "body",
+    "nsfw",
+    "nsfw-breastsize"
+  ],
+  "nsfw-expression": [
+    "adjective",
+    "nsfw",
+    "expression",
+    "nsfw-expression"
+  ],
+  "nsfw-position": [
+    "pose",
+    "nsfw",
+    "nsfw-position"
+  ],
+  "nsfw-publicity": [
+    "nsfw",
+    "adjective",
+    "nsfw-publicity"
+  ],
+  "nsfw-sex-act": [
+    "nsfw",
+    "object",
+    "nsfw-sex-act"
+  ],
+  "nsfw-sex-position": [
+    "nsfw",
+    "pose",
+    "nsfw-sex-position"
+  ],
+  "nsfw-sex-toy": [
+    "nsfw",
+    "object",
+    "nsfw-sex-toy"
+  ],
+  "object": [
+    "object"
+  ],
+  "person": [
+    "person"
+  ],
+  "pose": [
+    "pose"
+  ],
+  "prompt-nsfw-bdsm": [
+    "prompt",
+    "nsfw",
+    "scenario",
+    "prompt-nsfw-bdsm"
+  ],
+  "prompt-nsfw-erotic": [
+    "prompt",
+    "nsfw",
+    "scenario",
+    "prompt-nsfw-erotic"
+  ],
+  "prompt-nsfw-fantasy": [
+    "prompt",
+    "nsfw",
+    "scenario",
+    "prompt-nsfw-fantasy"
+  ],
+  "prompt-nsfw-horror": [
+    "prompt",
+    "nsfw",
+    "scenario",
+    "prompt-nsfw-horror"
+  ],
+  "prompt-nsfw-monster": [
+    "prompt",
+    "nsfw",
+    "scenario",
+    "prompt-nsfw-monster"
+  ],
+  "scent": [
+    "adjective",
+    "scent"
+  ],
+  "style-nsfw": [
+    "style",
+    "nsfw",
+    "style-nsfw"
+  ],
+  "time": [
+    "time"
+  ],
+  "toy": [
+    "object",
+    "nsfw",
+    "toy"
+  ]
+}

@@ -8,18 +8,18 @@ from pathlib import Path
 class MadLibsWildcardApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Mad Libs Wildcard Prompt Builder")
-        self.root.geometry("800x700")
+        self.root.title("Mad Libs Wildcard Prompt Builder (Clipboard Patch)")
+        self.root.geometry("800x750")
 
-        default_config = Path("wildcard_categories.json")
-        default_story_folder = Path("story_templates_v2")
-        default_wildcard_folder = Path("TylersWildcards")
+        default_config = Path("wildcard_categories_self_mapped.json")
+        default_story_folder = Path("story_templates")
+        default_wildcard_folder = Path("cleaned_tyler_wildcards_no_nested")
 
         self.config_file = default_config if default_config.exists() else Path(filedialog.askopenfilename(title="Select wildcard_categories.json"))
         self.story_folder = default_story_folder if default_story_folder.exists() else Path(filedialog.askdirectory(title="Select your story template folder"))
         self.wildcard_folder = default_wildcard_folder if default_wildcard_folder.exists() else Path(filedialog.askdirectory(title="Select your wildcards folder"))
 
-        with open(self.config_file, "r") as f:
+        with open(self.config_file, "r", encoding="utf-8") as f:
             self.wildcard_config = json.load(f)
 
         self.build_ui()
@@ -56,15 +56,17 @@ class MadLibsWildcardApp:
         self.generate_button.pack(pady=10)
 
         self.output_text = tk.Text(self.root, height=6, wrap='word')
-        self.output_text.pack(padx=10, pady=10, fill='both', expand=True)
+        self.output_text.pack(padx=10, pady=(10, 0), fill='both', expand=True)
+
+        self.copy_button = tk.Button(self.root, text="Copy Prompt to Clipboard", command=self.copy_to_clipboard)
+        self.copy_button.pack(pady=(5, 15))
 
     def load_story(self, event=None):
         story_file = self.story_folder / self.story_var.get()
-        with open(story_file, "r") as f:
+        with open(story_file, "r", encoding="utf-8") as f:
             story_content = f.read()
         self.story_text.delete("1.0", tk.END)
         self.story_text.insert(tk.END, story_content)
-
         self.setup_placeholders(story_content)
 
     def setup_placeholders(self, content):
@@ -120,6 +122,14 @@ class MadLibsWildcardApp:
                     prompt = prompt.replace(f"__{ph}__", f"__{wildcard_name}__")
         self.output_text.delete("1.0", tk.END)
         self.output_text.insert(tk.END, prompt)
+        self.copy_to_clipboard()
+
+    def copy_to_clipboard(self):
+        prompt = self.output_text.get("1.0", tk.END).strip()
+        self.root.clipboard_clear()
+        self.root.clipboard_append(prompt)
+        self.root.update()
+        messagebox.showinfo("Copied!", "Prompt copied to clipboard.")
 
 if __name__ == "__main__":
     root = tk.Tk()
